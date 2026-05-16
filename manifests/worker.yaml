@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: worker
-        image: rajat1004/ai-tasks-worker:8c2a0edbe358ac611f2d92e2f264293500fd9987
+        image: rajat1004/ai-tasks-worker:1db779ea9deef8b584be12cced9157a920192867
         env:
         - name: MONGO_URI
           value: "mongodb://mongodb:27017/ai-tasks"
