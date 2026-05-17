@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: rajat1004/ai-tasks-backend:1db779ea9deef8b584be12cced9157a920192867
+        image: rajat1004/ai-tasks-backend:ac215e78d88769867140140e58ad9b0711f09db6
         ports:
         - containerPort: 5000
         env:
