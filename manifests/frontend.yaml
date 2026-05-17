@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: rajat1004/ai-tasks-frontend:ac215e78d88769867140140e58ad9b0711f09db6
+        image: rajat1004/ai-tasks-frontend:6745ba9e2b65b89e829fc02647d616e6c1b89066
         ports:
         - containerPort: 8080
         resources:
